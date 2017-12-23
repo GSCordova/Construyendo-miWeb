@@ -2,13 +2,16 @@ body{
   margin: 0;
   width: 100vw;
   height: 100vh;
+  background-color: 868e96;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
 }
 
 #user{
   height: 100%;
   width: 20%;
   float: left;
-  background-color: #FFE89E;
+  background-color: #bd5d38;
   display: flex;
   align-items: center;
 }
@@ -17,9 +20,17 @@ body{
   text-align: center
 }
 
+#user a{
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+}
+
+#user a:hover{
+  color: #fff;
+}
+
 #content{
   float: left;
-  background-color: #E8BF7F;
   height: 100%;
   width: 80%;
 }
@@ -37,14 +48,11 @@ body{
 
 .img-content{
   margin: auto 10px;
+  padding: 10px;
 }
 
 .img-content img{
   width: 92%;
   border-radius: 100%;
-  border: 5px solid black;
-}
-
-#user a{
-  text-decoration: none
+  border: 5px solid rgba(255,255,255,.2);
 }
