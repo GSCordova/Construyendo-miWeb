@@ -1,19 +1,23 @@
 body{
   margin: 0;
   width: 100vw;
-  height: 100vh
+  height: 100vh;
 }
 
 #user{
   height: 100%;
   width: 20%;
   float: left;
-  background: green;
+  background-color: #FFE89E;
+}
+
+#user  h3{
+  text-align: center
 }
 
 #content{
   float: left;
-  background: yellow;
+  background-color: #E8BF7F;
   height: 100%;
   width: 80%;
 }
@@ -27,4 +31,14 @@ body{
 .container{
   width: 80%;
   margin: 0 auto;
+}
+
+.img-content{
+  margin: auto 10px;
+}
+
+.img-content img{
+  width: 92%;
+  border-radius: 100%;
+  border: 5px solid black;
 }
