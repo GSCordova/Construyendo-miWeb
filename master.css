@@ -9,6 +9,8 @@ body{
   width: 20%;
   float: left;
   background-color: #FFE89E;
+  display: flex;
+  align-items: center;
 }
 
 #user  h3{
@@ -41,4 +43,8 @@ body{
   width: 92%;
   border-radius: 100%;
   border: 5px solid black;
+}
+
+#user a{
+  text-decoration: none
 }
