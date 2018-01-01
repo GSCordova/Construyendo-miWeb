@@ -80,14 +80,30 @@ body{
 }
 
 .contenidob h1{
-  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   font-size: 3em;
   margin-bottom: 0;
   line-height: 1;
-  margin-top: 0
+  margin-top: 0;
+  color: #343a40;
+}
+
+.contenidob .p1, h1 {
+  font-family: 'Saira Extra Condensed',serif;
+
 }
 
 .contenidob p {
   margin-top: 0;
   margin-bottom: 10%
+}
+
+.contenidob span {
+  color: #bd5d38;
+}
+
+.contenidob a{
+  color: #bd5d38;
+  text-decoration: none;
 }
