@@ -12,6 +12,10 @@ body{
   line-height: 1.5;
 }
 
+#header{
+  display: none;
+}
+
 #user{
   position: fixed;
   height: 100vh;
@@ -38,7 +42,7 @@ body{
 #content{
   margin-left: 20%;
   float: left;
-  height: 100%;
+  height: auto;
   width: 80%;
 }
 
@@ -82,7 +86,7 @@ body{
 .contenidob h1{
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 5.5em;
   margin-bottom: 0;
   line-height: 1;
   margin-top: 0;
@@ -106,4 +110,46 @@ body{
 .contenidob a{
   color: #bd5d38;
   text-decoration: none;
+}
+
+
+@media screen and (max-width: 950px){
+  #user{
+    display: none;
+  }
+  #content{
+    margin-top: 7.4%;
+    margin-left: 0;
+    width: 100%;
+
+  }
+  .contenido1{
+    margin: 5% 3%;
+    position: initial;
+  }
+  .contenidob{
+    position: initial;
+    margin: initial;
+  }
+  #header{
+    display: block;
+    color: white;
+    overflow: hidden;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #header h2{
+    margin: 0;
+    padding: 1.5% 3%;
+  }
+  .icono_header{
+    margin-right: 10px;
+  }
+  .icono_header2{
+    float: right;
+    cursor: pointer;
+    color: white;
+  }
 }
