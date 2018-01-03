@@ -77,6 +77,20 @@ body{
   margin: 0 auto;
 }
 
+.contenidob ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contenidob ul{
+  padding: 0;
+}
+
+.contenidob ul li a i:hover{
+  padding: 0;
+  color: #343a40;
+}
+
 .img-content{
   text-align: center;
   padding: 10px;
@@ -157,6 +171,7 @@ body{
     position: initial;
     margin: initial;
   }
+
   #header{
     display: block;
     color: white;
