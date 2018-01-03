@@ -46,6 +46,27 @@ body{
   width: 80%;
 }
 
+.dropdown-content{
+  display: none;
+  background-color: rgba(189, 93, 56, 1);
+  margin-top: 2%;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: rgba(255,255,255,.5);
+}
+
+.show{
+  display: block;
+}
+
+.show a {
+  display: block;
+  text-decoration: none;
+  line-height: 2.2;
+}
+
 .container{
   width: 80%;
   margin: 0 auto;
@@ -84,6 +105,7 @@ body{
 }
 
 .contenidob h1{
+  font-family: 'Saira Extra Condensed',serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 5.5em;
@@ -93,10 +115,14 @@ body{
   color: #343a40;
 }
 
-.contenidob .p1, h1 {
+.contenidob .p1 {
   font-family: 'Saira Extra Condensed',serif;
-
+  color: #868e96;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.35rem;
 }
+
 
 .contenidob p {
   margin-top: 0;
@@ -135,7 +161,7 @@ body{
     display: block;
     color: white;
     overflow: hidden;
-    background-color: #343a40;
+    background-color: #bd5d38;;
     position: fixed;
     top: 0;
     width: 100%;
