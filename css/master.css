@@ -86,6 +86,10 @@ body{
   padding: 0;
 }
 
+.contenidob a:hover{
+  color: #343a40;
+}
+
 .contenidob ul li a i:hover{
   padding: 0;
   color: #343a40;
@@ -139,8 +143,12 @@ body{
 
 
 .contenidob p {
+  font-family: 'Saira Extra Condensed',serif;
+  color: #868e96;
+  font-size: 1.4rem;
+  font-weight: 500;
   margin-top: 0;
-  margin-bottom: 10%
+  margin-bottom: 7%;
 }
 
 .contenidob span {
@@ -183,7 +191,8 @@ body{
   }
   #header h2{
     margin: 0;
-    padding: 1.5% 3%;
+    padding: 1.2% 3%;
+    font-size: 1.25em;
   }
   .icono_header{
     margin-right: 10px;
