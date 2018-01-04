@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Gian-Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
     <meta name="author" content="Gianmarco D. Segura Cordova">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -23,47 +22,102 @@
 
           <a class="icono_header2" onclick="myFunction()"><i class="fa fa-bars fa-lg"></i></a>
             <div id="myDropdown" class="dropdown-content">
-              <a href="#">Sobre Mí</a>
-              <a href="#">Experiencia</a>
+              <a href="#sobremi">Sobre Mí</a>
+              <a href="#experiencia">Experiencia</a>
               <a href="#">Educación</a>
               <a href="#">Aptitudes</a>
               <a href="#">Portfolio</a>
             </div>
         </h2>
       </header>
-    <!--Básico-->
+    <!--Body-->
+    <!--Menu Izq-->
       <section id="user">
         <div class="container-user">
           <div class="img-content">
             <img src="images/yo.jpg" alt="error_imagen">
           </div>
-          <h3><a href="#content">Sobre Mí</a></h3>
-          <h3><a href="#">Experiencia</a></h3>
+          <h3><a href="#sobremi">Sobre Mí</a></h3>
+          <h3><a href="#experiencia">Experiencia</a></h3>
           <h3><a href="#">Educación</a></h3>
           <h3><a href="#">Aptitudes</a></h3>
           <h3><a href="#">Portfolio</a></h3>
         </div>
       </section>
-      <section id="content">
-        <section class="contenido1">
-          <div class="contenidob">
-            <h1>Gianmarco <span>Segura</span></h1>
-            <p class="p1">Madrid, 622160097 - <a href="mailto:GSCordova7@gmail.com">GSCordova7@gmail.com</a></p>
-            <p>Soy Desarrolador Front-End y tengo 26 años. Desde pequeño siempre me ha gustado todo lo relacionado con informática, primero como afición y ahora también como actividad laboral. Me considero una persona comprometida, proactiva y responsable. </p>
-            <ul>
-              <li><a href="https://github.com/GSCordova"><i class="fa fa-github fa-3x"></i></a></li>
-              <li><a href="https://twitter.com/Gianmaarco"><i class="fa fa-twitter fa-3x"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/gianmarco-frontend/"><i class="fa fa-linkedin fa-3x"></i></a></li>
-            </ul>
+    <!--Sobre Mí-->
+      <section id="sobremi">
+        <div class="contenidob">
+          <h1>Gianmarco <span>Segura</span></h1>
+          <p class="p1">Madrid, 622160097 - <a href="mailto:GSCordova7@gmail.com">GSCordova7@gmail.com</a></p>
+          <p>Soy Desarrolador Front-End y tengo 26 años. Desde pequeño siempre me ha gustado todo lo relacionado
+            con la informática, primero como afición y ahora también como actividad laboral. Me considero una
+            persona comprometida, proactiva y responsable. </p>
+          <ul>
+            <li><a href="https://github.com/GSCordova"><i class="fa fa-github fa-3x"></i></a></li>
+            <li><a href="https://twitter.com/Gianmaarco"><i class="fa fa-twitter fa-3x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/gianmarco-frontend/"><i class="fa fa-linkedin fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </section>
+      <hr>
+    <!--Experiencia-->
+      <section id="experiencia">
+        <div class="contenido_experiencia">
+          <h2>Experiencia</h2>
+          <div class="">
+            <p class="exp1">Desarrollador Web</p>
+            <p style="margin:0 auto 3% auto">Aunque mi experiencia como desarrollador web es cero, llevo aprendiendo bastante
+            tanto en clase como siendo autodidacta</p>
           </div>
-        </section>
+          <div class="">
+            <p class="exp1">Comercial de Ventas<span>4 años</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Burger King<span>2 meses</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Acción contra el hambre<span>6 meses</span></p>
+          </div>
+
+        </div>
+      </section>
+      <hr>
+    <!--Educación-->
+      <section id="educacion">
+        <div class="contenido_educacion">
+          <h2>Educación</h2>
+          <div class="">
+            <p class="exp1">Programa Front-End<span>Actualmente - Generation</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso HTML5<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso CSS3<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso de Desarrollo Web<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso de Responsive Design<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso de Programación Básica<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso de Fundamentos de Javascript - ES6<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso definitivo de Javascript - ES6<span>2017 - Platzi</span></p>
+          </div>
+          <div class="">
+            <p class="exp1">Curso de Bootstrap 4<span>2017 - Platzi</span></p>
+          </div>
+
+        </div>
       </section>
 
 
-    <script type="text/javascript">
-      function myFunction(){
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-    </script>
+    <script type="text/javascript" src="./js/master.js"></script>
   </body>
 </html>

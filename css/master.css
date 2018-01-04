@@ -1,15 +1,15 @@
-html {
-  width: 100%;
-  height: 100%
-}
 
 body{
   margin: 0;
-  width: 100%;
-  height: 100%;
   background-color: 868e96;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.5;
+}
+
+hr{
+  margin-left: 20%;
+  border: 1px solid #343a40;
+  opacity: 0.2;
 }
 
 #header{
@@ -39,11 +39,8 @@ body{
   color: #fff;
 }
 
-#content{
+#sobremi{
   margin-left: 20%;
-  float: left;
-  height: auto;
-  width: 80%;
 }
 
 .dropdown-content{
@@ -82,6 +79,10 @@ body{
   margin: 0 10px;
 }
 
+.contenidob {
+  padding: 10% 3%;
+}
+
 .contenidob ul{
   padding: 0;
 }
@@ -106,21 +107,7 @@ body{
   border: 2px solid rgba(255,255,255,.2);
 }
 
-.contenido1{
-  position: relative;
-  height: 100%;
-}
-
 /*Prueba font*/
-
-.contenidob{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 20% 10%;
-}
 
 .contenidob h1{
   font-family: 'Saira Extra Condensed',serif;
@@ -161,20 +148,94 @@ body{
 }
 
 
+
+#experiencia{
+  margin-left: 20%
+}
+
+.contenido_experiencia{
+  padding: 10% 3%;
+}
+
+#educacion{
+  margin-left: 20%
+}
+
+.contenido_educacion{
+  padding: 10% 3%;
+}
+
+.contenido_educacion h2{
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: #343a40;
+  margin: 1% auto;
+}
+
+
+
+
+.contenido_experiencia h2{
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: #343a40;
+  margin: 1% auto;
+}
+
+.contenido_experiencia p {
+  display: inline-block;
+  margin: 1% auto;
+}
+
+.exp1{
+  font-family: 'Saira Extra Condensed',serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #343a40;
+  width: 100%;
+}
+
+.exp1 span{
+  float: right;
+  color: #bd5d38;
+}
+
+.exp2{
+  float: right;
+  color: #bd5d38;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: auto;
+}
+
+
+
+
+
 @media screen and (max-width: 950px){
   #user{
     display: none;
   }
-  #content{
+  #sobremi{
     margin-top: 7.4%;
     margin-left: 0;
     width: 100%;
 
   }
-  .contenido1{
-    margin: 5% 3%;
-    position: initial;
+
+  #experiencia, #educacion{
+    margin-left: 0;
   }
+
+  hr{
+    margin-left: 0;
+  }
+
   .contenidob{
     position: initial;
     margin: initial;
