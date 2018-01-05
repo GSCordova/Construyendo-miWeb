@@ -1,0 +1,54 @@
+#sobremi {
+  margin-left: 20%; }
+
+.contenidob ul li {
+  display: inline-block;
+  margin: 0 10px; }
+
+.contenidob {
+  padding: 10% 3%; }
+
+.contenidob ul {
+  padding: 0; }
+
+.contenidob a:hover {
+  color: #343a40; }
+
+.contenidob ul li a i:hover {
+  padding: 0;
+  color: #343a40; }
+
+/*Prueba font*/
+.contenidob h1 {
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 5.5em;
+  margin-bottom: 0;
+  line-height: 1;
+  margin-top: 0;
+  color: #343a40; }
+
+.contenidob .p1 {
+  font-family: 'Saira Extra Condensed',serif;
+  color: #868e96;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.35rem; }
+
+.contenidob p {
+  font-family: 'Saira Extra Condensed',serif;
+  color: #868e96;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 7%; }
+
+.contenidob span {
+  color: #bd5d38; }
+
+.contenidob a {
+  color: #bd5d38;
+  text-decoration: none; }
+
+/*# sourceMappingURL=sobremi.css.map */

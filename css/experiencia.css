@@ -1,0 +1,38 @@
+#experiencia {
+  margin-left: 20%; }
+
+.contenido_experiencia {
+  padding: 10% 3%; }
+
+.contenido_experiencia h2 {
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: #343a40;
+  margin: 1% auto; }
+
+.contenido_experiencia p {
+  display: inline-block;
+  margin: 1% auto; }
+
+.exp1 {
+  font-family: 'Saira Extra Condensed',serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #343a40;
+  width: 100%; }
+
+.exp1 span {
+  float: right;
+  color: #bd5d38; }
+
+.exp2 {
+  float: right;
+  color: #bd5d38;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: auto; }
+
+/*# sourceMappingURL=experiencia.css.map */

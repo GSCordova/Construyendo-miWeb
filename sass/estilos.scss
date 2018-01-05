@@ -1,0 +1,71 @@
+@import "header";
+@import "user";
+@import "sobremi";
+@import "experiencia";
+@import "educacion";
+
+body{
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+}
+
+hr{
+  margin-left: 20%;
+  border: 1px solid #343a40;
+  opacity: 0.2;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 950px){
+  #user{
+    display: none;
+  }
+  #sobremi{
+    margin-top: 7.4%;
+    margin-left: 0;
+    width: 100%;
+
+  }
+
+  #experiencia, #educacion{
+    margin-left: 0;
+  }
+
+  hr{
+    margin-left: 0;
+  }
+
+  .contenidob{
+    position: initial;
+    margin: initial;
+  }
+
+  #header{
+    display: block;
+    color: white;
+    overflow: hidden;
+    background-color: #bd5d38;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #header h2{
+    margin: 0;
+    padding: 1.2% 3%;
+    font-size: 1.25em;
+  }
+  .icono_header{
+    margin-right: 10px;
+  }
+  .icono_header2{
+    float: right;
+    cursor: pointer;
+    color: white;
+  }
+}
