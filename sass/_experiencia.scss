@@ -1,0 +1,29 @@
+#experiencia{
+    margin-left: 20%;
+    .contenido_experiencia{
+        padding: 10% 3%;
+        h2{
+          font-family: 'Saira Extra Condensed',serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 4em;
+          color: #343a40;
+          margin: 1% auto;
+        }
+        p{
+          display: inline-block;
+          margin: 1% auto;
+        }
+        .exp1{
+            font-family: 'Saira Extra Condensed',serif;
+            text-transform: uppercase;
+            font-size: 1.5em;
+            color: #343a40;
+            width: 100%;
+            span{
+              float: right;
+              color: #bd5d38;
+            }
+          }
+    }
+}

@@ -42,16 +42,40 @@
 
 #sobremi {
   margin-left: 20%; }
-
-.contenidob ul li {
-  display: inline-block;
-  margin: 0 10px; }
-
-.contenidob {
-  padding: 10% 3%; }
-
-.contenidob ul {
-  padding: 0; }
+  #sobremi .contenidob {
+    padding: 13% 5% 10% 5%; }
+    #sobremi .contenidob a {
+      color: #bd5d38;
+      text-decoration: none; }
+    #sobremi .contenidob h1 {
+      font-family: 'Saira Extra Condensed',serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 5.5em;
+      margin-bottom: 0;
+      line-height: 1;
+      margin-top: 0;
+      color: #343a40; }
+    #sobremi .contenidob .p1 {
+      font-family: 'Saira Extra Condensed',serif;
+      color: #868e96;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.35rem; }
+    #sobremi .contenidob p {
+      font-family: 'Saira Extra Condensed',serif;
+      color: #868e96;
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-top: 0;
+      margin-bottom: 7%; }
+    #sobremi .contenidob span {
+      color: #bd5d38; }
+    #sobremi .contenidob ul {
+      padding: 0; }
+      #sobremi .contenidob ul li {
+        display: inline-block;
+        margin: 0 10px; }
 
 .contenidob a:hover {
   color: #343a40; }
@@ -60,89 +84,77 @@
   padding: 0;
   color: #343a40; }
 
-/*Prueba font*/
-.contenidob h1 {
-  font-family: 'Saira Extra Condensed',serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 5.5em;
-  margin-bottom: 0;
-  line-height: 1;
-  margin-top: 0;
-  color: #343a40; }
-
-.contenidob .p1 {
-  font-family: 'Saira Extra Condensed',serif;
-  color: #868e96;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.35rem; }
-
-.contenidob p {
-  font-family: 'Saira Extra Condensed',serif;
-  color: #868e96;
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 7%; }
-
-.contenidob span {
-  color: #bd5d38; }
-
-.contenidob a {
-  color: #bd5d38;
-  text-decoration: none; }
-
 #experiencia {
   margin-left: 20%; }
-
-.contenido_experiencia {
-  padding: 10% 3%; }
-
-.contenido_experiencia h2 {
-  font-family: 'Saira Extra Condensed',serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 4em;
-  color: #343a40;
-  margin: 1% auto; }
-
-.contenido_experiencia p {
-  display: inline-block;
-  margin: 1% auto; }
-
-.exp1 {
-  font-family: 'Saira Extra Condensed',serif;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  color: #343a40;
-  width: 100%; }
-
-.exp1 span {
-  float: right;
-  color: #bd5d38; }
-
-.exp2 {
-  float: right;
-  color: #bd5d38;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  margin: auto; }
+  #experiencia .contenido_experiencia {
+    padding: 10% 3%; }
+    #experiencia .contenido_experiencia h2 {
+      font-family: 'Saira Extra Condensed',serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 4em;
+      color: #343a40;
+      margin: 1% auto; }
+    #experiencia .contenido_experiencia p {
+      display: inline-block;
+      margin: 1% auto; }
+    #experiencia .contenido_experiencia .exp1 {
+      font-family: 'Saira Extra Condensed',serif;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: #343a40;
+      width: 100%; }
+      #experiencia .contenido_experiencia .exp1 span {
+        float: right;
+        color: #bd5d38; }
 
 #educacion {
   margin-left: 20%; }
+  #educacion .contenido_educacion {
+    padding: 10% 3%; }
+    #educacion .contenido_educacion h2 {
+      font-family: 'Saira Extra Condensed',serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 4em;
+      color: #343a40;
+      margin: 1% auto; }
+    #educacion .contenido_educacion .exp1 {
+      font-family: 'Saira Extra Condensed',serif;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: #343a40;
+      width: 100%; }
+      #educacion .contenido_educacion .exp1 span {
+        float: right;
+        color: #bd5d38; }
 
-.contenido_educacion {
-  padding: 10% 3%; }
-
-.contenido_educacion h2 {
-  font-family: 'Saira Extra Condensed',serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 4em;
-  color: #343a40;
-  margin: 1% auto; }
+#habilidades {
+  margin-left: 20%; }
+  #habilidades .contenido_habilidades {
+    padding: 10% 3%; }
+    #habilidades .contenido_habilidades h2 {
+      font-family: 'Saira Extra Condensed',serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 4em;
+      color: #343a40;
+      margin: 1% auto; }
+    #habilidades .contenido_habilidades p {
+      font-family: 'Saira Extra Condensed',serif;
+      color: #868e96;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.35rem; }
+    #habilidades .contenido_habilidades ul {
+      padding: 0; }
+      #habilidades .contenido_habilidades ul li {
+        display: inline-block;
+        font-size: 2.5rem;
+        margin-right: 2%;
+        color: #868e96; }
+        #habilidades .contenido_habilidades ul li :hover {
+          color: #bd5d38; }
 
 body {
   margin: 0;
@@ -159,23 +171,8 @@ hr {
   margin: 0 auto; }
 
 @media screen and (max-width: 950px) {
-  #user {
-    display: none; }
-
-  #sobremi {
-    margin-top: 7.4%;
-    margin-left: 0;
-    width: 100%; }
-
-  #experiencia, #educacion {
-    margin-left: 0; }
-
   hr {
     margin-left: 0; }
-
-  .contenidob {
-    position: initial;
-    margin: initial; }
 
   #header {
     display: block;
@@ -185,18 +182,35 @@ hr {
     position: fixed;
     top: 0;
     width: 100%; }
+    #header h2 {
+      margin: 0;
+      padding: 1.2% 3%;
+      font-size: 1.25em; }
+      #header h2 i {
+        margin-right: 10px; }
+      #header h2 .icono_header2 {
+        float: right;
+        cursor: pointer;
+        color: white; }
 
-  #header h2 {
-    margin: 0;
-    padding: 1.2% 3%;
-    font-size: 1.25em; }
+  #user {
+    display: none; }
 
-  .icono_header {
-    margin-right: 10px; }
+  #sobremi {
+    margin-top: 7.4%;
+    margin-left: 0;
+    width: 100%; }
+    #sobremi .contenidob {
+      position: initial;
+      margin: initial; }
 
-  .icono_header2 {
-    float: right;
-    cursor: pointer;
-    color: white; } }
+  #experiencia {
+    margin-left: 0; }
+
+  #educacion {
+    margin-left: 0; }
+
+  #habilidades {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=estilos.css.map */
