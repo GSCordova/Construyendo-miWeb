@@ -3,9 +3,13 @@
     margin-left: 20%;
     .contenidob {
         padding: 13% 5% 10% 5%;
+        border-bottom: 1px solid #868e96;
         a{
           color: #bd5d38;
           text-decoration: none;
+          :hover{
+            color: black;
+          }
         }
         h1{
           font-family: 'Saira Extra Condensed',serif;

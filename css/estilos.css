@@ -34,19 +34,22 @@
         border: 2px solid rgba(255, 255, 255, 0.2); }
     #user .container-user h3 {
       text-align: center; }
+      #user .container-user h3 :hover {
+        color: white; }
       #user .container-user h3 a {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.5); }
-        #user .container-user h3 a :hover {
-          color: #fff; }
 
 #sobremi {
   margin-left: 20%; }
   #sobremi .contenidob {
-    padding: 13% 5% 10% 5%; }
+    padding: 13% 5% 10% 5%;
+    border-bottom: 1px solid #868e96; }
     #sobremi .contenidob a {
       color: #bd5d38;
       text-decoration: none; }
+      #sobremi .contenidob a :hover {
+        color: black; }
     #sobremi .contenidob h1 {
       font-family: 'Saira Extra Condensed',serif;
       font-weight: 700;
@@ -87,7 +90,8 @@
 #experiencia {
   margin-left: 20%; }
   #experiencia .contenido_experiencia {
-    padding: 10% 3%; }
+    padding: 10% 3%;
+    border-bottom: 1px solid #868e96; }
     #experiencia .contenido_experiencia h2 {
       font-family: 'Saira Extra Condensed',serif;
       font-weight: 700;
@@ -111,7 +115,8 @@
 #educacion {
   margin-left: 20%; }
   #educacion .contenido_educacion {
-    padding: 10% 3%; }
+    padding: 10% 3%;
+    border-bottom: 1px solid #868e96; }
     #educacion .contenido_educacion h2 {
       font-family: 'Saira Extra Condensed',serif;
       font-weight: 700;
@@ -175,9 +180,6 @@ hr {
   margin: 0 auto; }
 
 @media screen and (max-width: 950px) {
-  hr {
-    margin-left: 0; }
-
   #header {
     display: block;
     color: white;
