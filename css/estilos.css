@@ -206,6 +206,7 @@ hr {
       #header h2 i {
         margin-right: 10px; }
       #header h2 .icono_header2 {
+        margin-top: 0.2em;
         float: right;
         cursor: pointer;
         color: white; }
