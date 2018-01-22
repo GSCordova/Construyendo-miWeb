@@ -5,6 +5,7 @@
     background-color: #bd5d38;
     margin-top: 2%;
     text-align: center; }
+    transition: 2s;
     #header .dropdown-content a {
       color: rgba(255, 255, 255, 0.5); }
   #header .show {
