@@ -1,3 +1,28 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header a{
+  color: white !important;
+}
+
 #sobremi{
-  padding: .5rem 1rem;
+  padding: 5.5rem 1rem;
+  max-width: 100%;
+}
+
+.seccion{
+  height: 100%
+}
+
+.miBg{
+  background-color: black;
+  position: fixed
+}
+
+#navbarNavAltMarkup{
+  justify-content: flex-end;
 }
