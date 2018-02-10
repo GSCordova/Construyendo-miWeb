@@ -5,8 +5,11 @@
             background-color: rgba(189, 93, 56, 1);
             margin-top: 2%;
             text-align: center;
+            :hover{
+              color: white;
+            }
             a {
-              color: rgba(255,255,255,.5);
+              color: rgba(255,255,255,0.5);
             }
           }
     .show{

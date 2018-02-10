@@ -5,7 +5,8 @@
     background-color: #bd5d38;
     margin-top: 2%;
     text-align: center; }
-    transition: 2s;
+    #header .dropdown-content :hover {
+      color: white; }
     #header .dropdown-content a {
       color: rgba(255, 255, 255, 0.5); }
   #header .show {
@@ -46,11 +47,13 @@
   #sobremi .contenidob {
     padding: 13% 5% 10% 5%;
     border-bottom: 1px solid #868e96; }
+    #sobremi .contenidob .correo {
+      color: #bd5d38; }
     #sobremi .contenidob a {
-      color: #bd5d38;
+      color: #868e96;
       text-decoration: none; }
       #sobremi .contenidob a :hover {
-        color: black; }
+        color: #bd5d38; }
     #sobremi .contenidob h1 {
       font-family: 'Saira Extra Condensed',serif;
       font-weight: 700;
@@ -147,7 +150,8 @@
 #habilidades {
   margin-left: 20%; }
   #habilidades .contenido_habilidades {
-    padding: 10% 3%; }
+    padding: 10% 3%;
+    border-bottom: 1px solid #868e96; }
     #habilidades .contenido_habilidades h2 {
       font-family: 'Saira Extra Condensed',serif;
       font-weight: 700;
@@ -176,6 +180,25 @@
       margin-left: 1em;
       margin-top: 0.1em;
       margin-bottom: 0.1em; }
+
+#portfolio {
+  margin-left: 20%; }
+  #portfolio .contenido_portfolio {
+    padding: 10% 3%;
+    border-bottom: 1px solid #868e96; }
+    #portfolio .contenido_portfolio h2 {
+      font-family: 'Saira Extra Condensed',serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 4em;
+      color: #343a40;
+      margin: 1% auto; }
+    #portfolio .contenido_portfolio p {
+      font-family: 'Saira Extra Condensed',serif;
+      color: #868e96;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.35rem; }
 
 body {
   margin: 0;
@@ -223,13 +246,7 @@ hr {
       position: initial;
       margin: initial; }
 
-  #experiencia {
-    margin-left: 0; }
-
-  #educacion {
-    margin-left: 0; }
-
-  #habilidades {
+  #experiencia, #educacion, #habilidades, #portfolio {
     margin-left: 0; } }
 
 /*# sourceMappingURL=estilos.css.map */

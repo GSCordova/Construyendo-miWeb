@@ -1,0 +1,22 @@
+#portfolio{
+    margin-left: 20%;
+    .contenido_portfolio{
+        padding: 10% 3%;
+        border-bottom: 1px solid #868e96;
+        h2{
+          font-family: 'Saira Extra Condensed',serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 4em;
+          color: #343a40;
+          margin: 1% auto;
+        }
+        p{
+          font-family: 'Saira Extra Condensed',serif;
+          color: #868e96;
+          text-transform: uppercase;
+          font-weight: 500;
+          font-size: 1.35rem;
+        }
+      }
+    }
