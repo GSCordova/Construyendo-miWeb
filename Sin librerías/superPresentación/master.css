@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+    }
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(fondo-oscuro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.centrar{
+    color: white;
+    align-self: center;
+}
+.centrar2{
+    align-self: center;
+    color: white;
+    display: none;
+}
+.css{
+    color: white;
+    align-self: center;
+    display: none;
+    text-align: center;
+}
+
+.cabecera_portfolio{
+    margin-bottom: 2rem;
+}
+.footer_portfolio{
+    margin-top: 2rem;
+}
+    
